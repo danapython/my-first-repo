@@ -1,2 +1,2 @@
 # my-first-repo
-my first repository
+my first repository for experiencing jenkins CI + github + python
