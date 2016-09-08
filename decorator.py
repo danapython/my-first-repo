@@ -6,11 +6,9 @@ def my_decorator(func):
         return func(*args) + 1
     return bar
 
-
 @my_decorator
 def foo(a, b):
     '''Return random integer in range [a, b], including both end points'''
     return randint(a,b)
-
 
 print '{}'.format(foo(0,9))
